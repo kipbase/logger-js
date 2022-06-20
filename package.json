@@ -1,0 +1,33 @@
+{
+  "name": "logger-js",
+  "version": "0.0.1",
+  "description": "A simple logger manage tool for JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "node ./demo.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipbase/logger-js.git"
+  },
+  "keywords": [
+    "logger",
+    "console",
+    "javascript"
+  ],
+  "author": "kipbase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kipbase/logger-js/issues"
+  },
+  "homepage": "https://github.com/kipbase/logger-js#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.18.0",
+    "typescript": "^4.7.4"
+  }
+}
