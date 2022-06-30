@@ -1,8 +1,9 @@
 import LoggerJS from './lib/index.js';
 
-console.log(LoggerJS)
+const a1 = LoggerJS.getLoggerInstance({
+  namespace: 'test',
+  logLevel: LoggerJS.logLevelEnum.Warn
+});
 
-LoggerJS.b = 123123
 
-console.log(LoggerJS)
-new LoggerJS()
+console.log(a1);
